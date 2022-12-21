@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using TMPro;
 
 public class GameControl : MonoBehaviour
 {
     public static GameControl instance;
-    public Text scoreText;
+    public TMP_Text scoreText;
     public GameObject gameOverText;
     public bool gameOver = false;
     public float scrollSpeed = -1.5f;

@@ -8,10 +8,10 @@ public class ColumnPool : MonoBehaviour
     GameObject[] columns;
     public GameObject columnPrefab;
     public int columnPoolSize = 5;
-    public float spawnRate = 3f;
-    public float columnMin = -8f;
-    public float columnMax = -5f;
-    float spawnXPosition = 10f;
+    public float spawnRate = 2f;
+    public float columnMin = -8.5f;
+    public float columnMax = -3.5f;
+    float spawnXPosition = 25f;
 
     Vector2 objectPoolPosition = new Vector2 (-30f, -50f);
     float timeSinceLastSpawned;
