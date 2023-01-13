@@ -6,7 +6,7 @@ public class Flappy : MonoBehaviour
 {
     bool crashed = false;
     private Rigidbody2D rb2d;
-    float gravity = 1.2f;
+    float gravity = 2.0f;
     Animator anim;
     // Start is called before the first frame update
     void Start()
@@ -24,7 +24,7 @@ public class Flappy : MonoBehaviour
             {
                 gravity = gravity * -1.0f;
                 rb2d.gravityScale = gravity;
-                if (gravity == 1.2f)
+                if (gravity == 2.0f)
                 {
                     anim.SetTrigger("Down");
                     anim.ResetTrigger("Up");
